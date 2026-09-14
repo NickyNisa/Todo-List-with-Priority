@@ -40,12 +40,7 @@ import { ref, computed } from 'vue'
 import TodoForm from './TodoForm.vue'
 import TodoList from './TodoList.vue'
 
-const todos = ref([
-  { id: 1, title: 'Task 1', level: 'High', isDone: true },
-  { id: 2, title: 'Task 2', level: 'Low', isDone: true },
-  { id: 3, title: 'Task 3', level: 'Medium', isDone: true },
-  { id: 4, title: 'Task 4', level: 'Medium', isDone: true },
-])
+const todos = ref([])
 
 const activeFilter = ref('all')
 
