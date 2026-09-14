@@ -1,13 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-layout view="lHh Lpr lFf">
-      <q-header elevated class="bg-primary text-white"> </q-header>
-
-      <q-page-container>
-        <router-view />
-      </q-page-container>
-    </q-layout>
-
+    <q-header elevated class="bg-primary text-white"> </q-header>
     <q-page-container>
       <router-view />
     </q-page-container>
